@@ -1,0 +1,9 @@
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\bin\Debug\AdventureGenerator.exe.config
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\bin\Debug\AdventureGenerator.exe
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\bin\Debug\AdventureGenerator.pdb
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\obj\Debug\AdventureGenerator.csprojResolveAssemblyReference.cache
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\obj\Debug\AdventureGenerator.Forms.MainForm.resources
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\obj\Debug\AdventureGenerator.Properties.Resources.resources
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\obj\Debug\AdventureGenerator.csproj.GenerateResource.Cache
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\obj\Debug\AdventureGenerator.exe
+c:\users\victor\documents\visual studio 2017\Projects\AdventureGenerator\AdventureGenerator\obj\Debug\AdventureGenerator.pdb
