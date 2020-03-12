@@ -85,7 +85,7 @@ namespace AdventureGenerator.Forms
             InputValues inputValues = GetInputValues();
             if (inputValues.AllValid())
             {
-                float rangeConversionFactor = comboBoxRangeUnits.SelectedIndex == 0 ? 1 : comboBoxRangeUnits.SelectedIndex == 1 ? 1000 : comboBoxRangeUnits.SelectedIndex == 2 ? FeetToMetresConversion : MilesToMetresConversion;
+                float rangeConversionFactor = inputValues.RangeUnitIndex.Value == 0 ? 1 : inputValues.RangeUnitIndex.Value == 1 ? 1000 : inputValues.RangeUnitIndex.Value == 2 ? FeetToMetresConversion : MilesToMetresConversion;
                 float rangeMetres = (float)((inputValues.RangeMin.Value + _random.NextDouble()*(inputValues.RangeMax.Value - inputValues.RangeMin.Value))*rangeConversionFactor);
                 float bearingRadians = (float)(_random.NextDouble()*2*Math.PI);
 
