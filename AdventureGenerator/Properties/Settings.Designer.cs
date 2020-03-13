@@ -82,5 +82,17 @@ namespace AdventureGenerator.Properties {
                 this["RangeUnitIndex"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("&t=h")]
+        public string URLSuffix {
+            get {
+                return ((string)(this["URLSuffix"]));
+            }
+            set {
+                this["URLSuffix"] = value;
+            }
+        }
     }
 }

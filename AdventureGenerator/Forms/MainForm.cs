@@ -126,7 +126,12 @@ namespace AdventureGenerator.Forms
                 }
             }
 
-            System.Diagnostics.Process.Start(string.Format("http://maps.google.com/maps?q={0},{1}", mapLatitude, mapLongitude));
+            MapParametersForm mapParametersForm = new MapParametersForm()
+            {
+                MapLatitude = mapLatitude,
+                MapLongitude = mapLongitude
+            };
+            mapParametersForm.ShowDialog();
         }
 
         private void MainForm_FormClosing(object sender, FormClosingEventArgs e)
