@@ -78,6 +78,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MapParametersForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Map Parameters";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MapParametersForm_FormClosing);
             this.Load += new System.EventHandler(this.MapParametersForm_Load);
